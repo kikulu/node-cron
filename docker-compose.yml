@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+   cron:
+      image: cron
+      container_name: cron
+      volumes:
+         - /var/log/cron:/var/log/cron
+         - /home/test/crontab:/etc/crontabs/root
+         - /home/test/project:/src

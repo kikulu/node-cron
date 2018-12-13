@@ -1,0 +1,2 @@
+*/1 * * * *  /usr/bin/node /src/app.js >> /var/log/cron/cron-node.log 2>&1
+
